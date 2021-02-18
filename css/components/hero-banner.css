@@ -1,0 +1,45 @@
+.hero {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  box-shadow: 0 0 20px black;
+}
+
+@font-face {
+  font-family: Starwars;
+  src: url('../fonts/Starjedi.woff');
+}
+
+.banner-h1 {
+  font-family: Starwars;
+  font-size: 50px;
+}
+
+.container-main {
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 800px;
+  color: white;
+  border: 5px solid black;
+  padding: 50px;
+  box-shadow: 0 0 30px black;
+}
+
+.container-main div {
+  margin-top: 7%;
+}
+.btn {
+  font-size: 20px;
+  color: #15f2fd;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px solid #15f2fd;
+  transition: all 0.4s ease;
+}
+  .btn:hover {
+    box-shadow: 0 0 10px #15f2fd;
+  }

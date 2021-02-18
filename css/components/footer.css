@@ -1,0 +1,12 @@
+.footer {
+  color: white;
+  font-size: 25px;
+  padding: 30px;
+}
+  .footer h1 {
+    box-shadow: 0 0 20px white;
+  }
+
+.fab {
+  font-size: 50px;
+}
